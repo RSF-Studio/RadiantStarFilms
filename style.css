@@ -457,6 +457,21 @@ footer div h2{
   .SectionThree h1 {
     padding: 0px 15px;
   }
+.SectionThree h1{
+  font-weight: 600;
+}
+
+  .SectionOne .text h2{
+    font-size: 30px;
+  }
+
+  .SectionOne .text h1{
+    font-size: 35px;
+  }
+
+  .SectionOne .text p{
+    font-size: 20px;
+  }
 
   .AboutSection h1 {
     font-size: 50px;
