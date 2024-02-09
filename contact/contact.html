@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contact.css">
+  <title>Contact</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="Navbar">
+      <div class="Logo">
+        <h1><span>RADIANT </span><br>STAR FILMS</h1>
+      </div>
+
+      <div class="NavLinks">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../services/services.html">Our Services</a></li>
+          <li><a href="../studio/studio.html">Studios</a></li>
+          <li><a href="../team/team.html">Team</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="menu">
+        <button onclick="
+        RenderNav()
+          ">
+          <div id="HamBurger" class="hideHamburger">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+          </div>
+
+          MENU
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hideNav" id="navBurger">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../services/services.html">Our Services</a></li>
+      <li><a href="../studio/studio.html">Studios</a></li>
+      <li><a href="../team/team.html">Team</a></li>
+      <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <section>
+    <h1>Contact Radiant Star Films</h1>
+    <div class="contactInfo">
+
+      <p>&#9993; RadiantStarFilms@gmail.com</p>
+      <p>&#128205; 7345 NW 41 street <br>Miami FL 33166</p>
+
+    </div>
+
+    <div class="content">
+      <div>
+        <p>NAME</p>
+        <input id="name" type="text" placeholder="Name">
+      </div>
+
+      <div>
+        <p>Email</p>
+        <input type="email" placeholder="Email" id="Email">
+      </div>
+
+      <div>
+        <p>WHAT IS YOUR REQUEST</p>
+        <select name="" id="select">
+          <option value="">Select One</option>
+          <option value="">Contact about Productions</option>
+          <option value="">Information about our Services.</option>
+          <option value="">Jobs Oppourtunities</option>
+          <option value="">Just, say hi</option>
+          <option value="">Other Issuess</option>
+        </select>
+      </div>
+
+      <div>
+        <p>MESSAGE</p>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+      </div>
+
+      <div>
+        <button onclick="HandleInfo()">Send</button>
+      </div>
+
+      <div>
+        <p style="padding-bottom: 100px;">We respect your privacy</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    <div>
+      <h2>Copyright &copy; 2024 Radiant star Films</h2>
+    </div>
+  </footer>
+
+
+</body>
+<script src="./contact.js"></script>
+
+</html>
